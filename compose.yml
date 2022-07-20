@@ -5,6 +5,8 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/var/app
+    environment:
+      DATABASE_URL: mysql://root:@database:3306/rust_api
     ports:
       - "8080:8080"
     depends_on:
