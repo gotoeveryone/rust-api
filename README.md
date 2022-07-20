@@ -13,3 +13,9 @@
 ```
 $ docker compose up
 ```
+
+## Migration
+
+```
+$ sea migrate up
+```
