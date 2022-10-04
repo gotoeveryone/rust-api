@@ -12,7 +12,7 @@ members = [".", "entity", "migration"]
 actix-web = "~4.2.1"
 paperclip = { version = "0.7.1", features = ["actix4"] }
 # sea-orm = { version = "0.9.0", features = ["debug-print", "runtime-actix-native-tls", "sqlx-mysql"] }
-serde = { version = "~1.0.144", features = ["derive"] }
+serde = { version = "~1.0.145", features = ["derive"] }
 entity = { path = "entity" }
 migration = { path = "migration" }
 
