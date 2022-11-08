@@ -18,7 +18,7 @@ migration = { path = "migration" }
 
 [dependencies.sea-orm]
 # path = "../../"
-version = "^0.10.1" # sea-orm version
+version = "^0.10.2" # sea-orm version
 features = [
   "debug-print",
   "runtime-actix-native-tls",
